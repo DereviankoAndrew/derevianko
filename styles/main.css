@@ -233,3 +233,154 @@ header {
 .space {
     height: 300px;
 }
+
+@media (max-width: 1240px) {
+    .h11 {
+        font-size: 30px;
+        margin-right: 220px;
+
+    }
+    .container {
+        width: 900px;
+    }
+    .lennonImg {
+        margin-left: 40px;
+        width: 400px;
+    }
+    .KennedyImg {
+        margin-left: 40px;
+        width: 400px;
+    }
+    .citationText {
+        font-size: 40px;
+        margin-left: -90px;
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 987px) {
+
+    .citation {
+        margin-left: -30px;
+    }
+
+
+
+    .container {
+
+        padding-top: 50px;
+    }
+    .container:hover .h11,
+    .container:hover .p {
+        opacity: 1;
+        transform: translateX(320px);
+    }
+    .container:hover .content {
+        opacity: 0;
+    }
+
+    .languages {
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 862px) {
+
+    .citation {
+        margin-left: -30px;
+    }
+    .h11 {
+        font-size: 30px;
+
+        width: 100%;
+
+    }
+
+
+
+    .container {
+        padding-top: 50px;
+        width: 100%;
+        margin-left: -70px;
+    }
+    .container:hover .h11,
+    .container:hover .p {
+        opacity: 1;
+        transform: translateX(320px);
+    }
+    .container:hover .content {
+        opacity: 0;
+    }
+
+}
+
+@media (max-width: 632px) {
+
+
+    .container {
+        padding-top: 50px;
+        width: 100%;
+        margin-left: -90px;
+    }
+
+    .lng-h1-header-title {
+        font-size: 25px;
+    }
+
+
+}
+
+.languages {
+        margin-top: 40px;
+    }
+
+@media (max-width: 518px) {
+
+
+    .container {
+        padding-top: 50px;
+        width: 100%;
+        margin-left: -120px;
+    }
+
+
+}
+
+@media (max-width: 594px) {
+
+
+    .languages {
+        margin-top: -5px;
+        margin-left: 30px;
+        float: left;
+    }
+
+
+}
+
+@media (max-width: 470px) {
+
+
+    .lng-h1-header-title {
+        margin-top: -10px;
+        margin-left: 30px;
+        float: left;
+    }
+
+
+}
+
+@media (max-width: 338px) {
+
+
+    .lng-h1-header-title {
+        margin-top: -37px;
+        margin-left: 30px;
+        float: left;
+    }
+
+
+}
+

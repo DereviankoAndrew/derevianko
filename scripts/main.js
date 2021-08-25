@@ -70,3 +70,23 @@ function changeImageKennedy() {
 //
 //changeOpacity()
 
+
+
+width = document.body.clientWidth
+console.log(width)
+
+if (width < 987) {
+    var contents = document.querySelectorAll('.content');
+    counter = 0
+    while (counter != contents.length){
+        contents[counter].innerHTML = ' '
+        counter++
+    }
+
+
+
+//    for (elem in contents) {
+//        console.log(elem)
+//    }
+}
+
